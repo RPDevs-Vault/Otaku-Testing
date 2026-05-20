@@ -917,6 +917,14 @@
 					<default>true</default>
 					<control type="toggle"/>
 				</setting>
+				<setting id="provider.animepahealt" type="boolean" label="30486" help="" parent="provider.animepahe">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+					<dependencies>
+						<dependency type="visible" setting="provider.animepahe">true</dependency>
+					</dependencies>
+				</setting>
 				<setting id="provider.animix" type="boolean" label="30238" help="">
 					<level>0</level>
 					<default>true</default>
